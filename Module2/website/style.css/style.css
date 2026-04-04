@@ -1,0 +1,30 @@
+html {
+    background: rgb(20, 20, 20);
+    margin: 0;
+}
+body {
+    background: white;
+    color: black;
+    margin: 2em;
+    padding: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 400%;
+    line-height: 0;
+}
+.container {
+    display: flex;  
+}
+.section-container {
+    padding: 0 0 0 0.5em;
+    margin: 0;
+}
+img {
+    border: solid black 1.5em;
+}
+aside {
+    padding: 1em;
+}
