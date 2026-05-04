@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dark Trap</title>
+    <title>Dark Trap Catalogue</title>
     <link href="../style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header>
-    <img src="">
+    <a href="../index.html"><img style="width: 100px; height: auto;" src="../images/DTClogo-8.png"></a>
     <nav>
         <a href="../index.html">Home</a>
         <a href="about.html">About</a>
@@ -16,8 +16,82 @@
         <a href="contact.html">Contact Us</a>
     </nav>
 </header>
-<main>
+<main class="artists-container">
     <h2>Artists</h2>
+    <ul>
+        <li><a href="#witchouse40k">Witchouse 40k</a></li>
+        <li><a href="#gullyspit">Gullyspit</a></li>            
+        <li><a href="#grim_salvo">Grim Salvo</a></li>        
+        <li><a href="#kamaara">KAMAARA</a></li>        
+        <li><a href="#twentythree">TWENTYTHREE</a></li>        
+        <li><a href="#istasha">Istasha</a></li>        
+    </ul>
+    <section id="witchouse40k">
+            <img src="../images/witchouse40k.jpg">
+            <div>
+                <h3>Witchouse 40k</h3>
+                <p>
+                    Witchouse 40k is a darkwave and industrial music project blending haunting synthscapes, distorted textures, and pulsing rhythms to evoke a dystopian atmosphere. Founded by a multi-instrumentalist producer and sound designer, Witchouse 40k draws on cyberpunk aesthetics, vintage analog gear, and cinematic sampling to craft immersive, brooding tracks. Releases mix dense production with minimalist, ritualistic motifs, while live sets pair atmospheric visuals and tactile hardware performance. The project has cultivated a cult following across underground electronic scenes, collaborating with visual artists and remixers to expand its ominous, otherworldly sonic identity.
+                </p>
+            </div>
+    </section>
+    <section id="gullyspit">
+            <img src="../images/gullyspit.jpg">
+            <div>
+                <h3>Gullyspit</h3>
+                <p>
+                    Gullyspit is an experimental electronic producer and sound artist known for gritty, 808 beats, warped textures, and playful yet unsettling sonic collages. Drawing from hip-hop, noise, and ambient traditions, Gullyspit blends chopped samples, broken rhythms, and tape-saturated aesthetics to craft intimate, character-driven tracks. Releases range from limited-run cassettes to digital singles and collaborative remixes, earning attention in underground scenes for creative sampling and raw production. Live performances emphasize immediacy and improvisation, often incorporating found sounds and live processing. The project cultivates a DIY ethic and a loyal niche following that values eccentricity and emotional grit.
+                </p>
+            </div>
+    </section>
+    <section id="grim_salvo">
+            <img src="../images/grim_salvo.jpg">
+            <div>
+                <h3>Grim Salvo</h3>
+                <p>
+                    Grim Salvo is a post-punk and darkwave duo (Mossback and Sleuth) blending guitar lines, driving bass, and stark synth textures to create brooding, nocturnal soundscapes. Their music pairs introspective, often bleak lyricism with propulsive rhythms and minimalist arrangements, drawing on 1980s coldwave and contemporary gothic influences. Early EPs and singles gained traction in underground scenes for their moody production and evocative atmosphere. Live shows emphasize tight performances and stark lighting, cultivating an intense, immersive experience. With steady releases and DIY-minded promotion, Grim Salvo has built a devoted following among fans of melancholic, danceable alternative music.
+                </p>
+            </div>
+    </section>
+    <section id="kamaara">
+            <img src="../images/kamaara.jpg">
+            <div>
+                <h3>KAMAARA</h3>
+                <p>
+                    Kamaara is an electronic and experimental producer whose work fuses ambient textures, downtempo beats, and ethereal vocal manipulations to create immersive, meditative soundscapes. Drawing from world music, modern classical, and IDM, Kamaara blends organic instrumentation with granular synthesis and field recordings for a warm, cinematic palette. Releases include intimate EPs, collaborative singles, and limited-run physical editions that emphasize tactile presentation. Live sets focus on fluid transitions, layered atmospheres, and subtle rhythmic shifts, inviting focused listening rather than conventional dancefloor energy. With a quiet but growing following, Kamaara’s music appeals to listeners seeking contemplative, emotionally resonant electronic composition.
+                </p>
+            </div>
+    </section>
+    <section id="twentythree">
+            <img src="../images/twentythree.png">
+            <div>
+                <h3>TWENTYTHREE</h3>
+                <p>
+                    Twentythree is an indie electronic producer and songwriter blending shimmering synth-pop, lo-fi beats, and introspective lyricism to craft intimate, nostalgic tracks. Their music balances warm, analog textures with modern bedroom-pop production—catchy melodies colliding with thoughtful, personal themes about memory and transition. Releases span DIY singles, bedroom EPs, and collaborative remixes that showcase a knack for concise, emotive songwriting. Live performances are understated, often featuring a mix of live instrumentation and backing tracks to preserve the songs’ delicate atmosphere. With steady online growth and grassroots support, Twentythree has cultivated a devoted niche audience drawn to sincere, melancholic pop.
+                </p>
+            </div>
+    </section>
+    <section id="istasha">
+        <img src="../images/istasha.jpg">
+        <div>
+            <h3>Istasha</h3>
+            <p>
+                Istasha is an experimental electronic and neo-soul producer whose work melds lush, jazz-inflected chords, warm lo-fi textures, and intimate, soulful vocals. Drawing on R&B, ambient, and avant-pop, Istasha crafts smooth, cinematic tracks that balance groove with introspective lyricism. Releases include self-produced singles, collaborative EPs, and limited physical editions that emphasize sonic detail and emotional warmth. Live performances blend live instrumentation, subtle electronics, and expressive vocal delivery to create immersive, late-night atmospheres. With a growing independent following, Istasha’s music resonates with listeners who value sophisticated arrangements, heartfelt storytelling, and a modern, genre-blurring aesthetic.
+            </p>
+        </div>
+    </section> 
+    <section id="blog-container">
+        <!--This is where new artist blog posts go-->
+    </section>  
+    <section>
+    <h3>Submit new artist</h3>
+    <form id="blog-form">
+        <input type="text" id="title" placeholder="Artist name" required><br><br>
+        <input type="text" id="image" placeholder="Image URL" required><br><br>
+        <textarea id="content" placeholder="Write about the artist.." required></textarea><br><br>
+        <button type="submit">Add new artist</button>
+    </form>
+</section>
 </main>
 <footer>
     <nav>
